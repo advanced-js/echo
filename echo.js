@@ -1,6 +1,10 @@
 function echo(){
-  for (var i=0; i < arguments.length; i++){
-  	console.log(arguments[i]);
+  //check if arguments exist
+  if(arguments.length >= 1){
+  	//loop through arguments and print to console
+  	for (var i=0; i < arguments.length; i++){
+	  	console.log(arguments[i]);
+	  }
   }
 }
 
