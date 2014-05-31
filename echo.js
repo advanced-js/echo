@@ -1,5 +1,9 @@
 function echo(){
-  // ...
+	var result = [];
+	for (var i = 0; i < arguments.length; i++) {
+		result[i] = arguments[i];
+	}
+	return console.log(result);
 }
 
 echo();
