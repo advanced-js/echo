@@ -5,7 +5,7 @@
 function echo(stuff){
 	 var args = Array.prototype.slice.call(arguments);
 	 	for (i=0; i<args.length; i++){
-			var word = args[i]
+			var word = args[i];
 			console.log (word);
 		}
 	}
@@ -16,7 +16,7 @@ function echo(stuff){
 
 function echo(stuff){
 	 	for (i=0; i<arguments.length; i++){
-			var word = arguments[i]
+			var word = arguments[i];
 			console.log (word);
 		}
 	}
