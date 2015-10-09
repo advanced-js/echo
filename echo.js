@@ -15,16 +15,32 @@
 //
 // 'bla'
 
-function echo(x) {
-    console.log(x);
-}
+// function echo(x) {
+//     console.log(x);
+// }
 
-echo('bla');
+// echo('bla');
 
-//ALTERNATE SOLUTION:
+// //ALTERNATE SOLUTION:
+
+// function echo() {
+//     console.log(arguments[0]);
+// }
+
+// echo('bla');
+
+//------------------------
+//PART 3:
+//echo('foo', 'bar', 'baz');
+// should print
+//
+// 'foo'
+// 'bar'
+// 'baz'
 
 function echo() {
-    console.log(arguments[0]);
+    for (var x=0; x <= arguments.length - 1; x++)
+    console.log(arguments[x]);
 }
 
-echo('bla');
+echo('foo', 'bar', 'baz');
