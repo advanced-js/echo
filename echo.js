@@ -1,7 +1,7 @@
 function echo(){
-  // ...
+	return arguments;
 }
 
-echo();
-echo('bla');
-echo('foo', 'bar', 'baz');
+console.log(echo());
+console.log(echo('bla'));
+console.log(echo('foo', 'bar', 'baz'));
