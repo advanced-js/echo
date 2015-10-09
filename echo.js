@@ -2,11 +2,11 @@
 // // echo();
 // // should print nothing
 
-// function echo() {
-//     console.log();
-// }
+function echo() {
+    console.log();
+}
 
-// echo();
+echo();
 
 //------------------------
 //PART 2:
@@ -15,19 +15,19 @@
 //
 // 'bla'
 
-// function echo(x) {
-//     console.log(x);
-// }
+function echo(x) {
+    console.log(x);
+}
 
-// echo('bla');
+echo('bla');
 
 // //ALTERNATE SOLUTION:
 
-// function echo() {
-//     console.log(arguments[0]);
-// }
+function echo() {
+    console.log(arguments[0]);
+}
 
-// echo('bla');
+echo('bla');
 
 //------------------------
 //PART 3:
