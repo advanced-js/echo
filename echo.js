@@ -22,4 +22,4 @@ onload = function() {
   echo();
   echo('bla');
   echo('foo', 'bar', 'baz');
-}
+};
