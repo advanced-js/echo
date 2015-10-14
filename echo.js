@@ -1,6 +1,6 @@
 function echo(){
-  for (arg of arguments){
-  	console.log(arg);
+  for (var i=0; i<arguments.length; i++){
+  	console.log(arguments[i]);
   }
 }
 
