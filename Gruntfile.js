@@ -1,10 +1,5 @@
 module.exports = function(grunt) {
   grunt.initConfig({
-    jshint: {
-      files: {
-        src: ['*.js']
-      }
-    },
     validation: {
       options: {
         reset: true
@@ -15,8 +10,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-html-validation');
 
-  grunt.registerTask('default', ['jshint', 'validation']);
+  grunt.registerTask('default', ['validation']);
 };
