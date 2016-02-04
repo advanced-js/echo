@@ -1,6 +1,6 @@
 function echo(){
   // ...
-}
+};
 
 echo();
 echo('bla');
