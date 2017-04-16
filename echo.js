@@ -1,5 +1,8 @@
-function echo(){
-  // ...
+function echo () {
+	var i;
+	for (i = 0; i < arguments.length; i++) {
+		console.log(arguments[i]);
+	}
 }
 
 echo();
